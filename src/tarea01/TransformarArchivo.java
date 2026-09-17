@@ -1,3 +1,10 @@
+/*
+ * 
+ * El programa lee un archivo de texto y crea otro transformando las letras a 
+ * mayúsculas, sustituyendo los números por # y manteniendo el resto de 
+ * caracteres. También controla posibles errores de lectura o escritura.
+ * 
+ */
 package tarea01;
 
 	import java.io.FileReader;
