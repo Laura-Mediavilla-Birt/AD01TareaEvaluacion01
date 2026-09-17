@@ -1,3 +1,9 @@
+/*
+ * El programa lee los cuatro primeros bytes de un fichero y comprueba si 
+ * coinciden con la firma de un archivo ZIP. También informa si el fichero 
+ * es demasiado pequeño o si la cabecera no coincide.
+ */
+
 package tarea01;
 
 import java.io.FileInputStream;
