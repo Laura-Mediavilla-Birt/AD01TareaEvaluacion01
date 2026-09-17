@@ -65,6 +65,8 @@ public class CrearInventario {
 
         try (RandomAccessFile fichero =
                      new RandomAccessFile("inventario.dat", "rw")) {
+        	
+        	fichero.setLength(0);
 
             // El número de registros depende de la longitud de los arrays
             for (int i = 0; i < ids.length; i++) {
